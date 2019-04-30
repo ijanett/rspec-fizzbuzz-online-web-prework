@@ -1,5 +1,3 @@
-require 'pry'
-
 def fizzbuzz(int)
   if int % 3 == 0
     return "Fizz"
@@ -7,7 +5,6 @@ def fizzbuzz(int)
     return "Buzz"
   elsif fizz_3 && fizz_5
     return "FizzBuzz"
-binding.pry
   else int % 3 != 0 && int % 5 != 0
     puts nil
   end
