@@ -5,7 +5,7 @@ def fizzbuzz(int)
     return "Fizz"
   elsif int % 5 == 0
     return "Buzz"
-  elsif int %(3 && 5) == 0
+  elsif fizzbuzz(3) && fizzbuzz(5)
     return "FizzBuzz"
 binding.pry
   else int % 3 != 0 && int % 5 != 0
