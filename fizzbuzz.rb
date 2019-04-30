@@ -8,7 +8,7 @@ def fizzbuzz(int)
   elsif int % 3 != 0
     return "nil"
   else int % 5 != 0
-    return "nil"
+    puts "nil"
   end
 end
 # Don't forget! This file needs to be 'required' in its spec file
