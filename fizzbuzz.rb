@@ -5,10 +5,8 @@ def fizzbuzz(int)
     return "Buzz"
   elsif int % 15 == 0
     return "FizzBuzz"
-  elsif int % 3 != 0
-    return "nil"
-  else int % 5 != 0
-    puts "nil"
+  else int % 3 != 0 && int % 5 != 0
+    puts nil
   end
 end
 # Don't forget! This file needs to be 'required' in its spec file
