@@ -6,7 +6,7 @@ def fizzbuzz(int)
   elsif int == 3*5
     return "FizzBuzz"
   else int % (3, 5) != 0
-    "nil"
+    return "nil"
   end
 end
 # Don't forget! This file needs to be 'required' in its spec file
